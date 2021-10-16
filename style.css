@@ -1,0 +1,3 @@
+#ulTasks li.disabled {
+    text-decoration: line-through;
+}
