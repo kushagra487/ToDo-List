@@ -55,5 +55,8 @@ function clearAll(){
     console.log('Clearing the storage')
     localStorage.clear();
     update()
+    document.getElementById('tableBody').innerHTML = "No list to show";
+    tableBody.style.fontWeight = 'bold';
+    tableBody.style.textAlign = 'center';
     }
 }
