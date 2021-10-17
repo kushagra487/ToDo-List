@@ -1,5 +1,4 @@
 function getAndUpdate(){
-    console.log("Updating List...");
     task = document.getElementById('inpNewTask').value;
     desc = document.getElementById('description').value;
     if (localStorage.getItem('itemsJson')==null){
